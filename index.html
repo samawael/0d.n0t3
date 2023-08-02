@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="descreption" content="this is a note app" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>0d.N0t3</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>0d.N0t3</h1>
+    </header>
+
+    <section class="container">
+      <form id="my-form" method="GET">
+        <h1>Add User </h1>
+        <div class="msg"></div>
+        <div>
+          <label>Username</label>
+        <input type="text" required placeholder="Username" name="username">
+        </div>
+        <br>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="email" name="email">
+        </div>
+        <br>
+        <div>
+          <label>Password</label>
+        <input type="password" required placeholder="Write A Complex Password" name="pass">
+        </div>
+        <br>
+        <div>
+          <label>Phone number</label>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{11}" placeholder="phone number" required>
+
+        <br>
+
+        <input class="btn" type="submit" value="submit">
+
+      </form>
+
+      <ul id="users"></ul>
+
+      <!-- <ul class="items">
+        <li class="item">Item 1</li>
+        <li class="item">Item 2</li>
+        <li class="item">Item 3</li>
+      </ul> -->
+    </section>
+    
+
+  </body>
+</html>
